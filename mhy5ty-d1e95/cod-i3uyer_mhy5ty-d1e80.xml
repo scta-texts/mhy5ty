@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 1</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 1</title>
+          <date when="2019-06-06">June 06, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-06-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+
+      </div>
+    </front>
+    <body>
+      <div >
+        <head>Capitulum 1</head>
+        <p >Titulus huius capituli est: Quod divina lux per divinam noctem aspicitur et ipsa divina nox per occasum luminum invenitur. Ibique quod est clarum obscuratur, quod est magnum coartatur, quod est humanum deificatur, et quod est ignotum magis ignoratur. Divina lux est divine cognitionis claritas. Divina
+        nox est ipsius cognitionis inconprehensibilitas, que, cum aspicitur, Deus cognoscitur. Invenitur autem ipsa inconprehensibilitas per occasum luminum, idest per excessum omnium sensuum et virium mentalium. Quo obtento ipsa cognitio obscuratur, quia in excessum maioris cognitionis augmentatur. Et latitudo verbi vocalis vel mentalis restringitur in simplicitatem verbi eternalis. Ibi fit etiam deificatio, idest de humanis in divina transmutatio. Et illud quod est ignotum per investigationem rationis et intellectualis operationis, fit ignotius per excessum unitionis. Ita tamen quod talis ignorantia summa est aput viatorem scientia.
+      </p>
+        <p>
+Trinitas supersubstantialis, etc. usque ad illud: Tu autem, etc. talis est sensus: O trina unitas et una trinitas, divinarum videlicet personarum, superexcedens omne ens quo ad personam patris, et superexcedens omnem scientiam et sapientiam quo ad personam filli, et superexcedens omnem existentem bonitatem quo ad personam spiritus sancti: que inspiciendo approbas, et approbando inspicis sapientiam fidelium, qua Deus cognoscitur. Que scilicet est optima portio Marie. Directo radio a te ad nos, nos ad te elevando, rege, ut perveniamus ad te per contemplationem. Qui es summus vertex sacrarum scripturarum, nobis quidem superignotus, in te autem
+supersplendens. In quo videlicet summe altissimo vertice, sententie sacre scripture profundissime sunt clause et abscondite, et sicut in arte simplicissima coartate, et a verborum velaminibus absolute. Unde, quoniam sunt simplices, sunt et inconvertibiles, idest tantum uno modo intelligibiles. Sunt autem in isto vertice cooperte iste sententie secundum lucem, que habet excessum luminis. Et ideo sortitur nomen caliginis. Cuius splendor occultus est verbum eternum, quod pater inaudibiliter ab eterno loquitur. Quod quidem in illa summa invisibilitate, Deum qui est superclarissimus, facit desuper radiantem. Et in illo statu ubi nec ratio investigando palpat, nec intelligentia contemplando considerat, radiis eternaliter simplicibus et effectualiber multiplicibus superfundit celestes mentes, que sibi tote sunt oculus, vel que non utuntur materialibus sensibus. Et ista sunt que per modum orationis a Deo postulo, quoniam ista non aliter intelliguntur, nisi per orationem a Deo impetrentur.
+        </p>
+
+        <p >Nota quod vertex secretorum divinorum dicitur super ignotus, supersplendens et summus. Superignotus dicitur, quia ad ipsum ratio deficit per investigationem. Supersplendens dicitur, quia ad ipsum intellectus deficit per superfluentem luminis effusionem. Summus vero dicitur, quia ad ipsum intelligentia deficit per excedentem affectionis unitionem. Ibi sententie sacre scripture sunt simplices, quia, sicut videntur, intelliguntur. Sunt absolute, quia nullis elementorum velaminibus detinentur. Sunt inconvertibiles, quia ad hunc vel illum intellectum non reducuntur. Sunt cooperte, quia superlucenti lumino obteguntur. Quod lumen dicitur a beato Dionysio supersplendens occulte dicti silentii caligo. Hec est divina inconprehensibilitas. Que dicitur caligo propter luminis excessionem. Dicitur occulte superspelendens propter intimam vel in intimis factam luminis supereffusionem. Dicti etiam dicitur propter verbum eternum, quod pater ab eterno loquitur. Dicitur silen-
+        tii propterea quod generatio talis verbi ab intellectuali auditu non percipitur. Unde, quia auditui mentis non est perceptibilis, ideo a verbo oris non est enarrabilis. Ysaias: Generationem eius quis enarrabit, quasi dicat: Nullus. Et in illo statu obscurissimo per excessum luminis Deus, qui est clarissimus per naturam, fit menti supersplendens per radiorum habundantiam. Ibi ratio nichil palpat, quia nichil est ibi investigabile. Ibi intellectus nichil videt, quia nichil est ibi contemplabile. Et tamen superpulchris lucibus divine refulgentie superimplentur, se ipsas per se ipsas et alia a se ipsis videntes, humane et angelice deificate intelligentie.
+      </p>
+        <p>Tu autem, etc. usque ad illud: Vide autem, etc. talis est sensus: Tu Thymothee qui per verum amorem alter ego michi factus es, ut possis intelligere secretas contemplationes, de quibus te modo cupio instruere, sic cooperare radio divino, ut forti mentis conamine derelinquas usus sensuum corporalium cum sensibilibus exercitiis, et intellectuales operationes, et animas, et angelicas substantias et omnia que de verbo eterno in esse prodierunt. Et omnia que in solo verbo superessentiali consistunt. Que scilicet in ipso verbo sunt contemplabilia, et sunt omnia transeunda. Et sicut tua requirit
+        possibilitas, scienter nescius, quo non videt oculus, consurge per principalem affectionem ad Dei unitionem, qui est super omnem substantiam ineffabiliter collocatus, et super omnem cognitionem tam humanam quam angelicam inconprehensibiliter collocatus. Etenim, cum te ipsum et omnia alia mente excesseris, ita quod illorum amore retineri non valeas vel alias impediri, purgatus ab ultimis anime fantasiis, tam spirituales quam divinas operationes postponendo elevaberis ad superclarissimum lumen occultissime deitatis. Que videlicet dicitur tenebra. Quia sic videtur quod non videtur, vel quia sic intelligitur a nobis quod non conprehenditur.
+      </p>
+        <p>
+Vide autem, etc. usque ad illud: Oportet in ipsa, etc. talis est sensus: Cave ne aliquis incredulorum aut inexpertorum ista secreta audiat. Istos autem dico qui naturalibus rationibus aut amori existentium firmiter innituntur, existimantes quod nichil sit super ens quod dicitur subiectum metaphysice, tam creata quam increata continens iuxta illam opinionem. Et hoc habent ex illo verbo quod dicitur in Exodo: Ego sum qui sum. Set hoc dictum est, ut in primo intellectu offerret nobis, quasi quoddam memoriale, ut se conputaret nobis-
+cum habere esse, qui erat totaliter super esse. Et hii tales putant per investigationem creaturarum que eis connaturalis est, pervenire ad eius cognitionem vel divinam conprehensionem, qui per supersubstantialitatem suam omni cognitioni se subtrahit et conprehensioni. Si autem doctrine divinorum occultorum scientiam tantorum philosophorum excedunt, quanto magis excedent imperitiam illorum, qui Deum, qui est superposita causa, ex extremis materiis existentium figurant, que inferiora sunt animatis. Nec insuper putant quod Deus in se aliquid habeat sublimius quant figure et forme multiplices que ab ipsis impie conponuntur.
+ </p>
+       <p>Oportet in ipsa, etc. usque ad illud: Etenim, etc. talia est sensus: Quamvis illi ita sentiunt, tamen necesse est, secundum rectam intelligentiam, omnium formam vel substan-
+         tiam, et omnem omnino creaturam, non tanquam subiecto set sicut omnium cause, ipsi attribuere et magis proprie et veraciter ab ea removere, sicut rei, cui nichil existentium inherere potest, secundum quod Deus. Et quamvis existentia Deo attribuantur vel ab eo removeantur, non tamen credendnm est quod inter talem affirmationem vel negationem cadat aliqua contrarietas, immo etiam oportet sentire ipsam omnium causam superiorem esse omni negationi et affirmationi. Unde de ea non potest esse aliqua positio vel ablatio, sive affirmatio vel negatio. Et iuxta hanc considerationem beatus Bartholomeus Deo conformis scribit, theologiam esse prolixam in verbis, et coartatam in sensibus. Et evangelium, latum in parabolis, et magnum in hystoriis, et rursus artum, et parvum in misteriis. Per hoc atem dico, beatum Batholomeum divina sapientia plenum, supermundanum intellectum habuisse, videlicet quod ipse Deus, qui est bona omnium causa, multis sermonibus designatur et iterum paucissimis in eo quod nec ratione capitur, nec intellectu conprehenditur, et ideo verbis non exprimitur. Ubi enim deficit verbum mentis, deest et verbum oris. Ideo autem nec mente capitur nec ore exprimitur, quia omnibus supersubstantialiter superponitur. Illis autem solis sine velamine apparet, scilicet per infusam dulcedinem et suavitatem inpermixtam, qui omnia sensibilia et intelligibilia per excessum mentis transcendunt et superant omnem ascensum divinorum et intelligibilium obiectorum sive spectaculorum, in quibus scilicet intellectualis contemplationis exercitium consunmatur et omnes irradiationes ad intellectum pertinentes, et inspirationes ambiguas et revelationes certas derelinquunt et intrant per unitionem ad superintellectualem Dei inconprehensibilitatem. Ubi in propria forma, secundum testimonia scripture, est Deus qui est super unum et unitatem, et super ens et entitatem. Dicitur enim in Exodo quod Moyses accessit ad caliginem, in qua erat Deus.
+</p>
+       <p>Etenim non simpliciter, etc. usque ad illud: Hec autem, etc. talis est sensus: Ista que supra diximus de transcensu divinorum luminum et sonorum et sermonum et introitu in caliginem, in ipso Moyse typice sunt ostensa, qui non solum in se ipso mundari iubetur, ut Deum pre ceteris altius contempletur, set etiam ab inmundis vel sibi dissimilibus separari. Et post omnem purgationem sensuum a sensibilibus et intellectus a fantasmatibus audit sive mente percipit multarum intelligentiarum inspirationes et contemplatur multa spectacula luculentissima de superhabundanti plenitudine emanantia cum candore radios in substantia simplices et in intelligentia multiplices. Tandem segregatus a multitudine populari, idest multifaria operatione naturali cum principalibus affectionibus ascendit ad Deum videndum. Cuius tamen substantiam non vidit, cum sit invisibilis, set locum ubi est Deus sive ipse locus sit celum serenum sive opus lapidis saphiri sive ignis ardens sive cacumen montis.
+       </p>
+       <p>Hec autem, etc. usque in finem capituli talis est sensus: Dictum est Deum non videri set locum, ubi est, idest in creaturis quibusdam, que dicunt esse divinissima subiecta visorum et intellectorum, vel divinissima loca, quia nichil divinius mente intuemur. Quibus arbitror designari sunmas et eternas architipias sive rationes aut exemplaria omnium creaturarum Deo subiectarum, per quas Deus fit presens, et cognitive nobis manifestatur, se ipsum nobis desuper infundens et manifestans principaliores et superiores intelligentias earundem rationum, que utcunque sunt a nobis intelligibiles per speculum. Postea Moyses separatur ab hiis qui secum locum Dei viderant, idest ab omnibus intelligibilibus operationibus, et subtrahitur ab omni intelligentia activa et passiva sive ab omni obiecto intellectuali et visu mentali et intrat ad caliginem ignorantie, quia unitur inconprehensibilitati divine, quam apex intelligentie non penetrat. Que caligo vere est mistica, idest clausiva, quia vere est omnia cognitionis clausiva et in se claudit et secretissime celat omnes conprehensivas cognitiones, sicut in prima omnium causa. Et per hanc caliginem omnis animus unitus Deo, qui est super omnia, fit in statu excellentissimo, quem nec ratio palpat per investigationem, nec intellectus contemplatur per visionem. Per quem etiam statum ab omnibus aliis et a se ipso separatur, quantum ad intellectualem proprie cognitionis presentiam. Et
+       per unitionem dilectionis que est effectiva universe cognitionis unitur Deo intellectualiter ignota cognitione que multo melior est quam sit cognitio intellectualis. Et in eo quod intellectualem cognitionem derelinquid, super intellectum et mentem Deum cognoscit, idest per sapientiam intellectualem que superat donum intellectus. Illa enim Deum cognoscit per unitionem, hec vero per rationes verbi.
+     </p>
+
+             </div>
+    </body>
+  </text>
+</TEI>

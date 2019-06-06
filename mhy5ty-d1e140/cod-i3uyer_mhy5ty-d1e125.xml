@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 4</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 4</title>
+          <date when="2019-06-06">June 06, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-06-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+
+      </div>
+    </front>
+    <body>
+      <div >
+        <head>Capitulum 4</head>
+        <p>Titulus huius capituli est quod nichil est sensibilium omnis sensibilis per excellentiam causalis. Deus enim qui est causa causalissima omnium, merito nichil dicitur esse sensibilium, sive activum sit sive passivum. Et ideo beatus Diony-
+          sius ostendere volens excellentiam huius cause primo ab ea removet remotiora ut est non substantiatum, ut non ens. Et non vivens, ut lapis. Et non rationale, ut pecus. Et notantur hic tres gradus inferiores creature, quos removet videlicet eorum que tantum sunt et non vivunt. Item eorum que sunt et que vivunt set non sentiunt. Item eorum que vivunt et sentiunt set non rationantur, nec intelligunt. Postremo removet omnia que possunt corpori vel sensibus subiacere.
+        </p>
+        <p>Dicimus igitur, etc. usque in finem capituli talis est sensus: Asserimus quod Deus qui creavit omnia, et est super omnia, inchoando in eo ablationem, non est aliquid materialiter substantiatum, sive ens, nec vivens, nec ratione utens, nec mente eminens. Hec autem omnia a se invicem sunt remota et a Deo. Quia non ens remotius est a Deo quam ea que sunt et non vivens quam ea que sunt et vivunt; et carens ratione et mente est hiis remotius que sunt et vivunt nec ratiocinantur nec intelligunt. Deinde removemus ab eo omne corporeum et omnia corpora vel rei corporee accidentia, ut
+        est figura, forma, qualitas, quantitas, pondus, localitas, sensuum proprietas tam activa quam passiva. Similiter ab eo auferimus inordinationem a carnalibus concupiscentiis provenientem. Et conpletionem carnalis desiderii a materailibus passionibus perturbatam vel turbidam factam. Item removemus ab eo inpotentiam vel invalitudinem subiectam casibus sensibilibus. Item removemus ab eo luminis indigentiam et variationem vel generationem et corruptionem et divisionem cum non sit ex diversis conpositus. Similiter passibilitatem materialem et fluxum temporalem ab eo auferimus cum non sit aliquid istorum aut in se habeat nec sit aliquid sensibilium.
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

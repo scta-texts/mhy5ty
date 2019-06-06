@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prologus</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prologus</title>
+          <date when="2019-06-06">June 06, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-06-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+
+      </div>
+    </front>
+    <body>
+      <div >
+        <head>Prologus</head>
+        <p >Ante Misticam Theologiam Simbolica Theologia esset transferenda. Nam post librum De divinis Nominibus ipsam esse conpositam ex verbis beati Dionysii declaratur. Set in partibus illis Grecie, in quibus fui, ipsam solicite querens, non inveni. Quod si forte per illum vestrum monachum qui in Greciam profectus esse dicitur, ipsam et alios libros de quibus fratri Gulielmo verba feci, obtinueritis rogo quatinus michi vestro clerico id designetis. Interim autem a me translatam, Misticam suscipite Theologiam. Videtur autem dici mistica, quasi occulta et clausa, quia cum iuxta eam per ablationem ad Dei cognitionem ascenditur, tandem quid sit Deus clausum et occultum relinquitur. Potest etiam dici mistica, quia multa de Deo doctrina sic quoque conparatur. Myo, unde mistica dicitur et claudo et disco et doceo interpretatur.
+        </p>
+        <p >Trinitas supersubstantialis, etc.: Titulus huius libri est De mistica Theologia. Dicitur autem mistica, idest clausa vel occulta; quia, quicquid ibi dicitur, quasi inexplicabile, totum clausum et occultum relinquitur. Est autem huius libri
+        materia ipse Deus, in se simpliciter consideratus, nullo habito respectu ad creata. Intentio vero eius est conmendare veram sapientiam christianorum et philosophorum sapientiam reprobare. Utilitas vero est inducere ad apicem perfectionis in via, idest uniri Deo per superintellectualem cognitionem et affectionem, sive, ut uno vocabulo dicatur utrunque, per deificationem. Forma vero sive modus tractandi talis est: Primo Deum invocat, ut per ipsum ad id ipsum dirigatur. Secundo instruit Thimotheum quomodo vera sapientia inquiratur, ibi: Tu autem amice. Tertio prohibet ne thesaurus istius sapientie indignis ostendatur, innuens errorem, quo inpediuntur ne vera ab eis sapientia inveniatur, ibi: Vide autem. Quarto ostendit secundum diversas rationes et vias quod omnis creatura de Deo sine aliqua contrarietate affirmatur et negatur, ibi: Oportet in ipsa. Quinto demonstrat qui sunt quibus gratia perveniendi ad Deum per superintellectualem cognitionem donantur ibi: Etenim non simpliciter. Et hec omnia facit in primo capitulo.
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>
