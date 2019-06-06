@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,21 +22,22 @@
           <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
         </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+          <witness xml:id="A" n="cod-i3uyer">Alonso 1957</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a critical edition.
-        </p>
+          guidelines for a critical edition. </p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -48,21 +50,57 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="starts-on">
-
-      </div>
+      <div xml:id="starts-on"> </div>
     </front>
     <body>
-      <div >
-        <head>Capitulum 5</head>
-        <p>Titulus huius capituli est quod nichil est intelligibilium omnis intelligibilis per excellentiam causalis. Sicut enim a causa causalissima removentur sensibilia, ita et intelligibilia, cum ipsa non sit sensibilis nec intelligibilis cuiuscunque dignitatis sit illud sensibile vel intelligibile, quod illi cause sit attribuibile. Hanc autem inter creaturam et creatorem distantiam non est dubium operari summe cause excellentiam. Que sicut in se est ineffabilis, ita nulli a se creato est conparabilis. Unde quoniam nulla potest esse ibi conparatio, congrua ibi eadit tam in sensibilibus quam in intelligibilibus remotio.
-        </p>
-        <p>Rursus autem, etc. neque in finem capituli talis est sensus: Inchoantes denuo negationes ab altioribus divinis, dicimus, quod Deus, qui est omnium causa, nec anima est, quia corpus non vivificat; nec mens, quia non supereminet anime, ut superior pars anime; nec fantasiam habet, divina vel spiritualia ymaginando; nec oppinionem, in diversas sententias diversimode declinando; nec rationem, inter dubia discernendo. Nec intellectum habet, circa solum creata visibilia insistendo. Neque est ratio, inter bonum et malum discernens. Nec intellectus, circa invisibilia creata insistens. Nec dicitur, quia non est effabilis; nec intelligitur, quia a nullo est con-
-          prehensibilis. Ut autem decurramus per media ad extrema, rursus dicimus quod nec est numerus, quia non est multiplicabilis; nec ordo, quia non ad paria vel imparia non est proportionabilis; nec magnitudo, quia non est augmentabilis; nec parvitas, quia non est minorabilis; nec equalitas, quia non est proportionabilis; nec similitudo, quia nulli rei est conparabilis; nec dissimilitudo, quia a nulla re est discrepabilis. Nec stat, quia non est res inmobilis. Neque movetur, quia non est res volubilis. Nec silentium agit, quia non verbo mentali vel vocali repressibilis. Ut autem ad summa per quedam media revertamur et in sunmis creaturis negationes terminemus, dicimus quod nec virtutem habet, qua ab alio solidetur. Nec virtus est, qua ab alio informetur. Nec lumen est quod ab alio mutuetur. Nec vivit, ut ab alio sensificetur. Nec vita est, ad regendum aliquod corpus accommodatus. Nec substantia est, materialiter substantiatus. Ncque evum, quia non est spatium invariabile. Nec tempus, quia non est spatium mutabile. Nec est tactus, quia secundum essentiam suam non est aliqualiter tangibilis. Nec est scientia, quia non est cognoscibilis. Nec veritas, quia non intellectui equabilis. Nec regnum, quia non est dominabilis. Nec sapientia, quia non est gustabilis. Nec unum, quia non est in plura augmentabilis. Nec unitas, quia non est materialiter indivisibilis. Nec est deitas, a nobis intelligibilis. Nec bonitas, quid non est qualitas infusibilis. Nec spiritus est, a nobis intelligibilis. Nec filiatio, ab alio secundum nos generabilis. Nec paternitas, alterius subsistentis materialiter productibilis. Nec est aliquid cognitum, a nobis plene vel ab aliquo existente, scilicet homine vel angelo. Nec est aliquid non existentium intellectualiter nec aliquid existentium materialiter. Nec exis-
-          tenti ipsum cognoscunt secundum quod ipse est. Nec ipse cognoscit ea secundum quod ipsa existunt in se ipsis, set secundum quod sunt in verbo. Item nec est ipsius rationalis investigatio nec nominis impositio nec cognitionis conprehensio. Nec est tenebre, a lumine deficientes; nec est lumen intelligibile. Non est error, quo animus decipiatur; nec veritas, qua sua industria animus instruatur. Et omnino nulla est eius positio vel ablatio. Set cum quecunque alia de ipso ponimus vel ab ipso auferimus, ipsum tamen nunquam ponimus vel auferimus. Quoniam et super omnem positionem est perfecta omnium causa, et super omnem ablationem est excessus eius ab omnibus et super omnia absolutus.
-        </p>
-        <p>EXPLICIT MISTICA THEOLOGIA. AMEN.
-        
+      <div xml:id="mhy5ty-d1e140">
+        <head xml:id="mhy5ty-d1e140-Hd1e105">Capitulum 5</head>
+        <p xml:id="mhy5ty-d1e140-d1e108">Titulus huius capituli est quod nichil est intelligibilium
+          omnis intelligibilis per excellentiam causalis. Sicut enim a causa causalissima removentur
+          sensibilia, ita et intelligibilia, cum ipsa non sit sensibilis nec intelligibilis
+          cuiuscunque dignitatis sit illud sensibile vel intelligibile, quod illi cause sit
+          attribuibile. Hanc autem inter creaturam et creatorem distantiam non est dubium operari
+          summe cause excellentiam. Que sicut in se est ineffabilis, ita nulli a se creato est
+          conparabilis. Unde quoniam nulla potest esse ibi conparatio, congrua ibi eadit tam in
+          sensibilibus quam in intelligibilibus remotio. </p>
+        <p xml:id="mhy5ty-d1e140-d1e111">Rursus autem, etc. neque in finem capituli talis est
+          sensus: Inchoantes denuo negationes ab altioribus divinis, dicimus, quod Deus, qui est
+          omnium causa, nec anima est, quia corpus non vivificat; nec mens, quia non supereminet
+          anime, ut superior pars anime; nec fantasiam habet, divina vel spiritualia ymaginando; nec
+          oppinionem, in diversas sententias diversimode declinando; nec rationem, inter dubia
+          discernendo. Nec intellectum habet, circa solum creata visibilia insistendo. Neque est
+          ratio, inter bonum et malum discernens. Nec intellectus, circa invisibilia creata
+          insistens. Nec dicitur, quia non est effabilis; nec intelligitur, quia a nullo est con-
+          prehensibilis. Ut autem decurramus per media ad extrema, rursus dicimus quod nec est
+          numerus, quia non est multiplicabilis; nec ordo, quia non ad paria vel imparia non est
+          proportionabilis; nec magnitudo, quia non est augmentabilis; nec parvitas, quia non est
+          minorabilis; nec equalitas, quia non est proportionabilis; nec similitudo, quia nulli rei
+          est conparabilis; nec dissimilitudo, quia a nulla re est discrepabilis. Nec stat, quia non
+          est res inmobilis. Neque movetur, quia non est res volubilis. Nec silentium agit, quia non
+          verbo mentali vel vocali repressibilis. Ut autem ad summa per quedam media revertamur et
+          in sunmis creaturis negationes terminemus, dicimus quod nec virtutem habet, qua ab alio
+          solidetur. Nec virtus est, qua ab alio informetur. Nec lumen est quod ab alio mutuetur.
+          Nec vivit, ut ab alio sensificetur. Nec vita est, ad regendum aliquod corpus accommodatus.
+          Nec substantia est, materialiter substantiatus. Ncque evum, quia non est spatium
+          invariabile. Nec tempus, quia non est spatium mutabile. Nec est tactus, quia secundum
+          essentiam suam non est aliqualiter tangibilis. Nec est scientia, quia non est
+          cognoscibilis. Nec veritas, quia non intellectui equabilis. Nec regnum, quia non est
+          dominabilis. Nec sapientia, quia non est gustabilis. Nec unum, quia non est in plura
+          augmentabilis. Nec unitas, quia non est materialiter indivisibilis. Nec est deitas, a
+          nobis intelligibilis. Nec bonitas, quid non est qualitas infusibilis. Nec spiritus est, a
+          nobis intelligibilis. Nec filiatio, ab alio secundum nos generabilis. Nec paternitas,
+          alterius subsistentis materialiter productibilis. Nec est aliquid cognitum, a nobis plene
+          vel ab aliquo existente, scilicet homine vel angelo. Nec est aliquid non existentium
+          intellectualiter nec aliquid existentium materialiter. Nec exis- tenti ipsum cognoscunt
+          secundum quod ipse est. Nec ipse cognoscit ea secundum quod ipsa existunt in se ipsis, set
+          secundum quod sunt in verbo. Item nec est ipsius rationalis investigatio nec nominis
+          impositio nec cognitionis conprehensio. Nec est tenebre, a lumine deficientes; nec est
+          lumen intelligibile. Non est error, quo animus decipiatur; nec veritas, qua sua industria
+          animus instruatur. Et omnino nulla est eius positio vel ablatio. Set cum quecunque alia de
+          ipso ponimus vel ab ipso auferimus, ipsum tamen nunquam ponimus vel auferimus. Quoniam et
+          super omnem positionem est perfecta omnium causa, et super omnem ablationem est excessus
+          eius ab omnibus et super omnia absolutus. </p>
+        <p xml:id="mhy5ty-d1e140-d1e114">EXPLICIT MISTICA THEOLOGIA. AMEN.</p>
       </div>
     </body>
   </text>

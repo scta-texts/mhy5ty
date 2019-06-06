@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,21 +22,22 @@
           <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
         </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+          <witness xml:id="A" n="cod-i3uyer">Alonso 1957</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a critical edition.
-        </p>
+          guidelines for a critical edition. </p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -48,22 +50,42 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="starts-on">
-
-      </div>
+      <div xml:id="starts-on"> </div>
     </front>
     <body>
-      <div >
-        <head>Capitulum 2</head>
-        <p >Titulus huius capituli est quomodo oportet uniri et ymnos referre omnium cause. Status unitionis non potest aliter obtineri nisi per ferventissimum desiderium mentalis orationis et per virtutem supermentalis affectionis ad quam non attingit oculus intellectualis cognitionis. Unde talis cognitio dicitur fieri per ignorantiam. Proprius autem hympnus sive modus Deum laudandi est per negationem sive remotionem, sicut est videri in figura lignea, a qua, quanto magis exterior grossities removetur, tanto magis pulchritudo figure videtur. Modus vero huius laudis est incipere ab inferioribus ad superiora ascendendo.
-        </p>
-        <p>In hac superlucenti, etc. usque ad illud: Oportet, etc. talis est sensus: Toto mentis affectu exoptamus nos fieri in caligine superlucenti, idest in statu superintellectuali qui lucidior est quam intellectualis, ut per mentis excessum, in quo intellectus non videt nec aliquo modo cognoscit, possimus Deum cognoscere et videre superintellectualiter, per remotionem videlicet intellectualis cognitionis, cum ipse Deus visu intellectuali nullatenus attingatur. Et precamur nos laudare posse supersubstantialem supersubstantiliater, idest Deum qui excedit omnem substantiam et omne ens per ablationem omnium existentium, sicut est videre in artificibus, qui aliquam fabricant similitudinem de qualibet inanimata materia. Qui sculpendo et incidendo removent exteriores partes materie grossiores que occultant et cooperiunt, ne videri possit illa pura ymago, que naturaliter et potentialiter est intus. Et per solam talium offendiculorum remotionem sine alio additamento manifestatur in propria specie ipsius ymaginis pulchritudo, que prius latebat in occulto.
-        </p>
-
-        <p >Oportet autem, etc. usque in finem capituli talis est sensus: In premissis libris Deum laudavi per affirmationes. In isto autem oportet laudare per negationes et omnium ablationes, quasi contrario modo. Ibi enim inchoantes ab affirmatione
-        vel positione principaliorum per media ad ultima descensum faciebamus; hic autem ab ultimorum ablatione incipientes usque ad ablationem principaliorum gradatim per media ascendimus, et iterum ad postrema reflexi omnia ab eo pariter auferemus. Quod ideo facimus, ut sine velo mistice significationis cognoscamus divinam inconprehensibilitatem latentem sub misticis velis omnium existentium, que possunt a nobis cognosci vel cogitari. Insuper hoc facimus, ut contemplemur divinam inconprehensibilitatem, que excedit omne ens. Que videlicet occultata est ab omni scientia in omnibus creaturis.
-      </p>
-        
+      <div xml:id="mhy5ty-d1e195">
+        <head xml:id="mhy5ty-d1e195-Hd1e105">Capitulum 2</head>
+        <p xml:id="mhy5ty-d1e195-d1e108">Titulus huius capituli est quomodo oportet uniri et ymnos
+          referre omnium cause. Status unitionis non potest aliter obtineri nisi per ferventissimum
+          desiderium mentalis orationis et per virtutem supermentalis affectionis ad quam non
+          attingit oculus intellectualis cognitionis. Unde talis cognitio dicitur fieri per
+          ignorantiam. Proprius autem hympnus sive modus Deum laudandi est per negationem sive
+          remotionem, sicut est videri in figura lignea, a qua, quanto magis exterior grossities
+          removetur, tanto magis pulchritudo figure videtur. Modus vero huius laudis est incipere ab
+          inferioribus ad superiora ascendendo. </p>
+        <p xml:id="mhy5ty-d1e195-d1e111">In hac superlucenti, etc. usque ad illud: Oportet, etc.
+          talis est sensus: Toto mentis affectu exoptamus nos fieri in caligine superlucenti, idest
+          in statu superintellectuali qui lucidior est quam intellectualis, ut per mentis excessum,
+          in quo intellectus non videt nec aliquo modo cognoscit, possimus Deum cognoscere et videre
+          superintellectualiter, per remotionem videlicet intellectualis cognitionis, cum ipse Deus
+          visu intellectuali nullatenus attingatur. Et precamur nos laudare posse supersubstantialem
+          supersubstantiliater, idest Deum qui excedit omnem substantiam et omne ens per ablationem
+          omnium existentium, sicut est videre in artificibus, qui aliquam fabricant similitudinem
+          de qualibet inanimata materia. Qui sculpendo et incidendo removent exteriores partes
+          materie grossiores que occultant et cooperiunt, ne videri possit illa pura ymago, que
+          naturaliter et potentialiter est intus. Et per solam talium offendiculorum remotionem sine
+          alio additamento manifestatur in propria specie ipsius ymaginis pulchritudo, que prius
+          latebat in occulto. </p>
+        <p xml:id="mhy5ty-d1e195-d1e114">Oportet autem, etc. usque in finem capituli talis est
+          sensus: In premissis libris Deum laudavi per affirmationes. In isto autem oportet laudare
+          per negationes et omnium ablationes, quasi contrario modo. Ibi enim inchoantes ab
+          affirmatione vel positione principaliorum per media ad ultima descensum faciebamus; hic
+          autem ab ultimorum ablatione incipientes usque ad ablationem principaliorum gradatim per
+          media ascendimus, et iterum ad postrema reflexi omnia ab eo pariter auferemus. Quod ideo
+          facimus, ut sine velo mistice significationis cognoscamus divinam inconprehensibilitatem
+          latentem sub misticis velis omnium existentium, que possunt a nobis cognosci vel cogitari.
+          Insuper hoc facimus, ut contemplemur divinam inconprehensibilitatem, que excedit omne ens.
+          Que videlicet occultata est ab omni scientia in omnibus creaturis. </p>
       </div>
     </body>
   </text>

@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -21,21 +22,22 @@
           <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
         </authority>
         <availability status="free">
-          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
-          <witness xml:id="A" n="cod-i3uy34">Alonso 1957</witness>
+          <witness xml:id="A" n="cod-i3uyer">Alonso 1957</witness>
         </listWit>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
       <editorialDecl>
         <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-          guidelines for a critical edition.
-        </p>
+          guidelines for a critical edition. </p>
       </editorialDecl>
     </encodingDesc>
     <revisionDesc status="draft">
@@ -48,24 +50,76 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-      <div xml:id="starts-on">
-
-      </div>
+      <div xml:id="starts-on"> </div>
     </front>
     <body>
-      <div >
-        <head>Capitulum 3</head>
-        <p >Titulus huius capituli est que sunt cathafatice, idest affirmative, theologie. Et que sunt apofatice, idest negative. In tribus enim voluminibus sive libris egit beatus Dionysius de cathafatica, idest affirmativa theologia: In libro De Ypotiposibus, in quo agit de distinctionibus personarum; in secundo De Divinis Nominibus; in tertio De vocabulorum Transsumptionibus ad divina designanda. In quarto autem libro, idest Mistica Theologia specialiter agit de apofatica, idest negativa. Que scilicet omnia a Deo removet tam inferiora quam media et superiora, ut videlicet per remotionem universalem a Deo ipsum Deum tandem inveniat singularem.
-        </p>
-        <p>Igitur in Theologicis, etc. usque ad illud: Et te arbitror, etc. talis est sensus: In tractatu De divini Caracteribus, idest personalibus distinctionibus, maxime affirmationibus usi sumus sive positionibus in divinis laudibus. Ubi ostendimus quod divina natura singularis est in essentia et trina in personis. Et qualiter intelligenda est in Deo paternitas et filiatio. Et quid significet proprietas, quam sacra scriptura attribuit spiritui sancto, idest processio iuxta illud: Spiritum veritatis qui a patre procedit. Item. Quomodo plenitudo bonorum invisibilium, que fixe manet in corde patris, pullulat ex inmateriali et simplici bono, idest persona patris, a qua procedit persona filli per generationem, et persona spiritus sancti per processionem. Quorum uterque a patre accepit eandem plenitudinem et per hoc filius et spiritus sanctus manent in patre et in se ipsis et omnes tres in se invicem. Et ipsa luminum plenitudo in filio et in spiritu permanet coeterne patri, a quo uterque ipsorum originem habet. Que tamen nichilominus tota
-        manet in patre. In eodem etiam libro tractavimus, quomodo Ihesus, qui est supersubstantialis secundum deitatem, factus est homo secundum veram humanitatem. Et alia multa ibi tractavimus iuxta expressa scripture testimonia. In libro autem De Divinis Nominibus tractavimus, quomodo Deus dicitur bonus, quomodo existens, quomodo vita et sapientia et de aliis intelligibilibus Dei nominibus. In Simbolica autem Theologia tractavimus transsumptiones vocabulorum et rerum sensibilium ad designandum anagogice invisibilia divina, monstrando videlicet quomodo accipiendum sit quod Deo attribuuntur forme, ut illud: Qui cum in forma Dei esset; figure, ut illud Os. Quasi leena; aut partes ut illud: Cant.: Caput eius aurum optimum; aut instrumenta ut illud Amos: Trulla cementarii; aut loca, ut illud Ezech. Benedicta gloria Domini de loco sancto suo; aut ornatus, ut illud Apoc.: Vestitum podere; aut furores, ut illud: Domine, ne in furore; aut tristitie, ut illud: Tristis est anima mea; aut insanie, ut illud Os.: Scitote Israel stultum prophetam insanum; aut ebrietates et crapule Ps. tanquam potens crapulatus a vino; aut iuramenta, ut illud: Iuravit Dominus; aut maledictiones, ut illud: Maledicta terra in opere suo; aut sompni, ut illud: Exurge quare obdormis; aut evigilationes, ut illud: Cor meum vigilat. Nec solum de istis ibi tractavimus set et de aliis conpositis formationibus Deo attributis in libro De Simbolica Teologia.
-        </p>
-
-        <p >Et te arbitror, etc. usque in finem capituli talis est sensus: Ego puto quod tu Thymothee oculis mentis perspexeris quomodo tractatus nostri ultimi plus habundant in verbis quam primi. Erat enim necesse quod libri De divinis Caracteribus vel Personalibus Distinctionibus et De divinis Nominibus minus essent in verbis prolixiores quam habeant Simbolice Theologie tractatus. Et ratio ista est, quoniam, quanto materia, de qua agitur, est altior et a sensu remotior aut ab ymaginatione longinquior, tanto minus utendum est verbis sensibilibus et magis exercendus est oculus intellectualis. Propter quod in presenti libro, ubi fit mentio de divina caligine, idest de inconprehensibilitate, que excedit omnem mentem tam huroanam quam angelicam, Vel que est super verbum intellectuale, non solum invenimus verborum brevitatem set perfectum et inconparabilem excessum rationis ad investigandum, et prudentie ad digne eloquendum. In predictis etiam libris tractatus noster a superioribus ad inferiora descendens secundum maiorem vel minorem descensum dilatabatur ad maiorem vel minorem prolixitatem.
-        </p>
-        <p >Quasi diceret: Quanto tractabam inferiora et sensibus propinquiora, tanto magis habundabat verborum copia proportionalis eidem sensui. In presenti autem tractatu ab inferioribus ad superiora conscendens secundum mensuram ascensionis contrahitur et coartatur. Cum autem ad mentis excessum perventum fuerit, tunc deficiet omnis sermo tam oris quam mentis, quia videlicet sermo mentis ineffabilem Deum non loquitur. Nec restat menti, nisi ut tota et totaliter ineffabili et eterno verbo uniatur. Cum enim inter mentem et Deum nichil sit medium, postquam facta est a Deo omnium remotio, nichil restat nisi supermentalis unitio. Queris autem fortassis que sit ratio quare positiones incipimus a dignioribus et ablationes ab inferioribus. Cuius rei ratio hec est: quia, quando volumus per positionem designare Deum, qui est super omnem positionem, convenit ut ipsa digniora et magis ei propinqua, principalius attribuamus eidem. Quando vero volumus ipsum designare per ablationem, primo convenit illa ab eo auferre, que magis ab ipso distare videntur, verbi gratia: Congruentius et propinquius attribuitur ei vita et bonitas quam aer vel lapis. Et similiter evidentius ab eo removetur crapula et insania quam dici vel intelligi.
-        </p>
-      
+      <div xml:id="mhy5ty-d1e110">
+        <head xml:id="mhy5ty-d1e110-Hd1e105">Capitulum 3</head>
+        <p xml:id="mhy5ty-d1e110-d1e108">Titulus huius capituli est que sunt cathafatice, idest
+          affirmative, theologie. Et que sunt apofatice, idest negative. In tribus enim voluminibus
+          sive libris egit beatus Dionysius de cathafatica, idest affirmativa theologia: In libro De
+          Ypotiposibus, in quo agit de distinctionibus personarum; in secundo De Divinis Nominibus;
+          in tertio De vocabulorum Transsumptionibus ad divina designanda. In quarto autem libro,
+          idest Mistica Theologia specialiter agit de apofatica, idest negativa. Que scilicet omnia
+          a Deo removet tam inferiora quam media et superiora, ut videlicet per remotionem
+          universalem a Deo ipsum Deum tandem inveniat singularem. </p>
+        <p xml:id="mhy5ty-d1e110-d1e111">Igitur in Theologicis, etc. usque ad illud: Et te arbitror,
+          etc. talis est sensus: In tractatu De divini Caracteribus, idest personalibus
+          distinctionibus, maxime affirmationibus usi sumus sive positionibus in divinis laudibus.
+          Ubi ostendimus quod divina natura singularis est in essentia et trina in personis. Et
+          qualiter intelligenda est in Deo paternitas et filiatio. Et quid significet proprietas,
+          quam sacra scriptura attribuit spiritui sancto, idest processio iuxta illud: Spiritum
+          veritatis qui a patre procedit. Item. Quomodo plenitudo bonorum invisibilium, que fixe
+          manet in corde patris, pullulat ex inmateriali et simplici bono, idest persona patris, a
+          qua procedit persona filli per generationem, et persona spiritus sancti per processionem.
+          Quorum uterque a patre accepit eandem plenitudinem et per hoc filius et spiritus sanctus
+          manent in patre et in se ipsis et omnes tres in se invicem. Et ipsa luminum plenitudo in
+          filio et in spiritu permanet coeterne patri, a quo uterque ipsorum originem habet. Que
+          tamen nichilominus tota manet in patre. In eodem etiam libro tractavimus, quomodo Ihesus,
+          qui est supersubstantialis secundum deitatem, factus est homo secundum veram humanitatem.
+          Et alia multa ibi tractavimus iuxta expressa scripture testimonia. In libro autem De
+          Divinis Nominibus tractavimus, quomodo Deus dicitur bonus, quomodo existens, quomodo vita
+          et sapientia et de aliis intelligibilibus Dei nominibus. In Simbolica autem Theologia
+          tractavimus transsumptiones vocabulorum et rerum sensibilium ad designandum anagogice
+          invisibilia divina, monstrando videlicet quomodo accipiendum sit quod Deo attribuuntur
+          forme, ut illud: Qui cum in forma Dei esset; figure, ut illud Os. Quasi leena; aut partes
+          ut illud: Cant.: Caput eius aurum optimum; aut instrumenta ut illud Amos: Trulla
+          cementarii; aut loca, ut illud Ezech. Benedicta gloria Domini de loco sancto suo; aut
+          ornatus, ut illud Apoc.: Vestitum podere; aut furores, ut illud: Domine, ne in furore; aut
+          tristitie, ut illud: Tristis est anima mea; aut insanie, ut illud Os.: Scitote Israel
+          stultum prophetam insanum; aut ebrietates et crapule Ps. tanquam potens crapulatus a vino;
+          aut iuramenta, ut illud: Iuravit Dominus; aut maledictiones, ut illud: Maledicta terra in
+          opere suo; aut sompni, ut illud: Exurge quare obdormis; aut evigilationes, ut illud: Cor
+          meum vigilat. Nec solum de istis ibi tractavimus set et de aliis conpositis formationibus
+          Deo attributis in libro De Simbolica Teologia. </p>
+        <p xml:id="mhy5ty-d1e110-d1e114">Et te arbitror, etc. usque in finem capituli talis est
+          sensus: Ego puto quod tu Thymothee oculis mentis perspexeris quomodo tractatus nostri
+          ultimi plus habundant in verbis quam primi. Erat enim necesse quod libri De divinis
+          Caracteribus vel Personalibus Distinctionibus et De divinis Nominibus minus essent in
+          verbis prolixiores quam habeant Simbolice Theologie tractatus. Et ratio ista est, quoniam,
+          quanto materia, de qua agitur, est altior et a sensu remotior aut ab ymaginatione
+          longinquior, tanto minus utendum est verbis sensibilibus et magis exercendus est oculus
+          intellectualis. Propter quod in presenti libro, ubi fit mentio de divina caligine, idest
+          de inconprehensibilitate, que excedit omnem mentem tam huroanam quam angelicam, Vel que
+          est super verbum intellectuale, non solum invenimus verborum brevitatem set perfectum et
+          inconparabilem excessum rationis ad investigandum, et prudentie ad digne eloquendum. In
+          predictis etiam libris tractatus noster a superioribus ad inferiora descendens secundum
+          maiorem vel minorem descensum dilatabatur ad maiorem vel minorem prolixitatem. </p>
+        <p xml:id="mhy5ty-d1e110-d1e117">Quasi diceret: Quanto tractabam inferiora et sensibus
+          propinquiora, tanto magis habundabat verborum copia proportionalis eidem sensui. In
+          presenti autem tractatu ab inferioribus ad superiora conscendens secundum mensuram
+          ascensionis contrahitur et coartatur. Cum autem ad mentis excessum perventum fuerit, tunc
+          deficiet omnis sermo tam oris quam mentis, quia videlicet sermo mentis ineffabilem Deum
+          non loquitur. Nec restat menti, nisi ut tota et totaliter ineffabili et eterno verbo
+          uniatur. Cum enim inter mentem et Deum nichil sit medium, postquam facta est a Deo omnium
+          remotio, nichil restat nisi supermentalis unitio. Queris autem fortassis que sit ratio
+          quare positiones incipimus a dignioribus et ablationes ab inferioribus. Cuius rei ratio
+          hec est: quia, quando volumus per positionem designare Deum, qui est super omnem
+          positionem, convenit ut ipsa digniora et magis ei propinqua, principalius attribuamus
+          eidem. Quando vero volumus ipsum designare per ablationem, primo convenit illa ab eo
+          auferre, que magis ab ipso distare videntur, verbi gratia: Congruentius et propinquius
+          attribuitur ei vita et bonitas quam aer vel lapis. Et similiter evidentius ab eo removetur
+          crapula et insania quam dici vel intelligi. </p>
       </div>
     </body>
   </text>
